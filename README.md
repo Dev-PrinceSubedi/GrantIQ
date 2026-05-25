@@ -120,7 +120,7 @@ All AI responses stream in real time so you can read them as they generate.
 
 Grant matching runs as two layers merged together:
 
-**Layer 1 — Hardcoded curated grants (matchEngine.ts)**
+**Layer 1 — ML curated grants (matchEngine.ts)**
 A set of carefully vetted federal programs with precisely defined eligibility rules — for example, whether the county has an HPSA designation, whether its poverty rate exceeds a threshold, whether it has a Federally Qualified Health Center, and whether it is classified as rural. Each criterion is evaluated and marked as met or not met. The engine produces a 0 to 100 match score weighted by importance. Grants where exactly one criterion is not met become near misses with a plain-language explanation of the gap and specific steps to close it.
 
 **Layer 2 — Live Grants.gov API (grants/route.ts)**
