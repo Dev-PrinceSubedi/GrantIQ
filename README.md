@@ -1,5 +1,5 @@
 # GrantIQ  
-##Federal Grant Intelligence Platform for Mississippi Counties
+## Federal Grant Intelligence Platform for Mississippi Counties
 
 **Hackathon 2026 · Round 2 Submission**
 **Author:** Subedi, Prince
